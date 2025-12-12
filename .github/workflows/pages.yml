@@ -1,10 +1,11 @@
 name: GitHub build pages
 
 on:
-  push:
-    branches:
-      - master
-      - obs-websocket-4
+  # push:
+  #   branches:
+  #     - master
+  #     - obs-websocket-4
+  workflow_dispatch:
 
 jobs:
   deploy:
