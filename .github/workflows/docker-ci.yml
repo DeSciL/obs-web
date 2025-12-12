@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 env:
-  FOLDER: "nudgeapp.server"
+  FOLDER: "."
   REGISTRY: ${{ secrets.DESCIL_REGISTRY_URL }}
   ORG: descil
   REPO: infra
