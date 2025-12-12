@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "svelte-kit build",
-    "dev": "svelte-kit dev --host --port 8080",
-    "start": "svelte-kit preview --host --port 8080",
-    "lint": "eslint . --ext .js,.ts,.svelte,.html --fix"
+    "build": "vite build",
+    "dev": "vite dev --host --port 8080",
+    "start": "vite preview --host --port 8080"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
